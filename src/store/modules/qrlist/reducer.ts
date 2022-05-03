@@ -10,6 +10,13 @@ const QRList: Reducer<IQRCodeList> = (state = INITIAL_STATE, action) => {
         switch (action.type) {
             case 'ADD_QRCODE_TO_LIST': {
                 const { QRCode } = action.payload
+                
+                const QRCodeAlreadyScanned = draft.some(item => item === QRCode)
+                
+                if(QRCodeAlreadyScanned) {
+                    break;
+                }
+
                 draft.push(QRCode)
                 break;
             }
