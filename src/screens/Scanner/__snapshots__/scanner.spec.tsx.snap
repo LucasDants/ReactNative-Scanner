@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scanner Screen should match the snapshot test 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#030303",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <ViewManagerAdapter_ExpoLinearGradient
+    proxiedProperties={
+      Object {
+        "colors": Array [
+          4290261825,
+          4292886352,
+        ],
+        "endPoint": undefined,
+        "locations": undefined,
+        "startPoint": undefined,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderBottomColor": "#B83341",
+          "borderBottomWidth": 1,
+          "justifyContent": "center",
+          "paddingBottom": 10,
+          "paddingLeft": 24,
+          "paddingRight": 24,
+          "paddingTop": 33,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 51,
+          },
+        ]
+      }
+    >
+      Scanner
+    </Text>
+  </ViewManagerAdapter_ExpoLinearGradient>
+  <ViewManagerAdapter_ExpoBarCodeScannerView
+    proxiedProperties={
+      Object {
+        "barCodeTypes": Array [],
+        "onBarCodeScanned": [Function],
+        "type": undefined,
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+</View>
+`;
