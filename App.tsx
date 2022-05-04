@@ -1,6 +1,7 @@
 import React from 'react';
 import { StatusBar, StyleSheet } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { ToastProvider } from 'react-native-toast-notifications';
 import { Provider } from 'react-redux';
 import { ThemeProvider } from 'styled-components';
 import { Routes } from './src/routes';
@@ -12,12 +13,14 @@ export default function App() {
      <GestureHandlerRootView style={styles.container}>
       <ThemeProvider theme={theme}>
         <Provider store={store}>
-          <StatusBar backgroundColor="transparent" translucent />
-          <Routes />
+          <ToastProvider>
+            <StatusBar backgroundColor="transparent" translucent />
+            <Routes />
+          </ToastProvider>
         </Provider>
       </ThemeProvider>
      </GestureHandlerRootView>
-    )
+  )
 }
 
 const styles = StyleSheet.create({
