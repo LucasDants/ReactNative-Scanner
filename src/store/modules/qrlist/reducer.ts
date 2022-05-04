@@ -17,7 +17,7 @@ const QRList: Reducer<IQRCodeList> = (state = INITIAL_STATE, action) => {
                     break;
                 }
 
-                draft.push(QRCode)
+                draft.unshift(QRCode)
                 break;
             }
             default: {
