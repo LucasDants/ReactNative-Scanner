@@ -24,13 +24,14 @@ export function Search({
           placeholder="Search QRCodes..."
           placeholderTextColor={colors.gray[100]}
           {...rest}
+          testID="input"
         />
-        <ButtonClear onPress={onClear}>
+        <ButtonClear onPress={onClear} testID="button-clear">
           <FontAwesome name="remove" size={16} color={colors.gray[100]} />
         </ButtonClear>
       </InputArea>
 
-      <Button onPress={onSearch}>
+      <Button onPress={onSearch} testID="button-search">
         <FontAwesome name="search" size={16} color={colors.white} />
       </Button>
     </Container>

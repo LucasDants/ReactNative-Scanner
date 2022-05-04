@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider Component should match the snapshot test 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#404040",
+        "height": 1,
+        "width": "100%",
+      },
+    ]
+  }
+/>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QRItem Component should match the snapshot test 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 24,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 24,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 27,
+        },
+      ]
+    }
+  >
+    Test
+  </Text>
+</View>
+`;
