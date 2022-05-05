@@ -42,6 +42,10 @@ export function Scanner(){
       requestUserPermissions()
     }, [])
 
+    if(hasPermission === null) {
+      return <Container />
+    }
+
     if(hasPermission === false) {
       return (
         <Container>
@@ -56,7 +60,7 @@ export function Scanner(){
   return (
     <Container>
       <Header title="Scanner" />
-      <BarCodeScanner type="back" onBarCodeScanned={handleAddQRCode} style={{ flex: 1 }} />
+      <BarCodeScanner type="back" onBarCodeScanned={handleAddQRCode} style={{ flex: 1 }}  />
     </Container>
   );
 }
