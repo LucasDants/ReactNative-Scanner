@@ -28,7 +28,7 @@
 <p>Donwload the <a href="https://github.com/LucasDants/ReactNative-Scanner/blob/main/distribuitions/app-release.apk">APK</a> for your android phone </p>
 
 <h1>:rocket: Getting started</h1>
-<p>Make sure you have done the <a href="https://reactnative.dev/docs/environment-setup">development environment</a></p>
+<p>Make sure you have done the <a href="https://reactnative.dev/docs/environment-setup">development environment</a> and  have <a href="https://docs.expo.dev/">Expo</a> installed</p>
 
 ```bash
 # Clone this repository
@@ -46,8 +46,5 @@ $ npx react-native run-ios
 
 
 ```
-
-<h1>:bookmark_tabs: License</h1>
- <img  src="https://img.shields.io/github/license/LucasDants/ReactNative-Scanner" alt="License">
  
  <p>Made with :heart: by Lucas Dantas 👋🏽 <a href="https://www.linkedin.com/in/LucasDants/">Get in Touch!</a></p>
